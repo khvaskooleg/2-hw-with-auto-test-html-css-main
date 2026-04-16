@@ -5,42 +5,89 @@
     /* Свойства для сброса начальных стилей элементов */
 }
 
-body {}
+:root {
+  --font-family: "Inter", sans-serif;
+}
+
+body {
+
+}
 
 header {
+    width: 1440px;
+    height: 70px;
+    background-color: #2965F1;
+    padding-top: 23px;
+    padding-bottom: 23px;
     /* Стили для хедера */
 }
 
 header span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
     /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
+    min-height: 100vh;
+    background-color: #fafaff;
+    padding-top: 60px;
+    padding-bottom: 60px;
     /* Стили для первой секции */
 }
 
 .main-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    padding-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
     /* Стили для текста в первой секции */
 }
 
 .main-image {
+    max-width: 715px;
     /* Стили для изображения в первой секции */
 }
 
 
 .about-section {
+    background-color: #FFFFFF;
+    margin: 100px 0 100px;
     /* Стили для второй секции */
 }
 
 select {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    padding: 9px 87px 8px 12px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    background: url(./images/Vector.svg) no-repeat right 16px top 16px;
+    appearance: none;
     /* Стили для выпадающего списка */
 }
 
 .section-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
