@@ -40,7 +40,7 @@ header span {
 .main-title {
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
+    color: rgb(48, 48, 48);
     padding-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
@@ -48,7 +48,7 @@ header span {
 .main-text {
     font-weight: 400;
     font-size: 18px;
-    color: #303030;
+    color: rgb(48, 48, 48);
     /* Стили для текста в первой секции */
 }
 
@@ -72,7 +72,7 @@ select {
     padding: 9px 87px 8px 12px;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
+    color: rgb(48, 48, 48);
     background: url(./images/Vector.svg) no-repeat right 16px top 16px;
     appearance: none;
     /* Стили для выпадающего списка */
@@ -81,7 +81,7 @@ select {
 .section-title {
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
+    color: rgb(48, 48, 48);
     margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
@@ -89,7 +89,7 @@ select {
 .frameworks-list {
     font-size: 16px;
     font-weight: 400;
-    color: #303030;
+    color: rgb(48, 48, 48);
     list-style-image: url(./images/solar_map-arrow-up-bold.svg);
     padding-left: 25px;
     /* Стили для маркированного списка во второй секции */
@@ -98,7 +98,7 @@ select {
 .books-list {
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
+    color: rgb(48, 48, 48);
     padding: 0 0 0 25px;
     /* Стили для нумерованного списка во второй секции */
 }
