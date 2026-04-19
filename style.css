@@ -10,11 +10,11 @@
 }
 
 body {
-
+    font-family: var(--font-family);
 }
 
 header {
-    width: 1440px;
+    width: 100vw;
     height: 70px;
     background-color: #2965F1;
     padding-top: 23px;
@@ -150,23 +150,37 @@ select {
 }
 
 table {
-    border-color: #95a1bb;
-    padding: 0px;
+    border: 1px solid #95a1bb;
+    border-collapse: collapse;
     font-family: var(--font-family);
     font-size: 14px;
     /* Стили для таблицы */
 }
 
 th, td {
-    margin: 0px;
     padding: 12px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
+    padding: 27px 0;
+    background: rgba(163, 167, 255, 0.3);
     /* Стили для футера */
 }
 
 .footer-link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;
     /* Стили для футера */
+}
+
+a:visited {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #f129e7;
+    text-decoration: none;
 }
