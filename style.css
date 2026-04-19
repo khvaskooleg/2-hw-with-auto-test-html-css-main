@@ -23,7 +23,6 @@ header {
 }
 
 header span {
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 20px;
     color: #fff;
@@ -39,7 +38,6 @@ header span {
 }
 
 .main-title {
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 48px;
     color: #303030;
@@ -48,7 +46,6 @@ header span {
 }
 
 .main-text {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
     color: #303030;
@@ -73,7 +70,6 @@ select {
     width: 150px;
     height: 36px;
     padding: 9px 87px 8px 12px;
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -83,7 +79,6 @@ select {
 }
 
 .section-title {
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 24px;
     color: #303030;
@@ -92,7 +87,6 @@ select {
 }
 
 .frameworks-list {
-    font-family: var(--font-family);
     font-size: 16px;
     font-weight: 400;
     color: #303030;
@@ -102,7 +96,6 @@ select {
 }
 
 .books-list {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -111,7 +104,6 @@ select {
 }
 
 .label {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -123,7 +115,6 @@ select {
     border-radius: 5px;
     width: 330px;
     height: 36px;
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     background-color: rgba(255, 255, 255, 0);
@@ -132,7 +123,6 @@ select {
 }
 
 .btn {
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 14px;
     color: #fff;
@@ -152,7 +142,6 @@ select {
 table {
     border: 1px solid #95a1bb;
     border-collapse: collapse;
-    font-family: var(--font-family);
     font-size: 14px;
     /* Стили для таблицы */
 }
@@ -169,7 +158,6 @@ footer {
 }
 
 .footer-link {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
@@ -178,7 +166,6 @@ footer {
 }
 
 a:visited {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     color: #f129e7;
