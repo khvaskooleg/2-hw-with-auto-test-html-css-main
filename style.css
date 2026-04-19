@@ -59,7 +59,7 @@ header span {
 
 .about-section {
     background-color: #FFFFFF;
-    margin: 100px 0 100px;
+    padding: 100px 0;
     /* Стили для второй секции */
 }
 
